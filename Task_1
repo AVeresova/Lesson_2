@@ -1,0 +1,6 @@
+list1 = [56, 36.6, "cat", [1,2,3,4,5]]
+a = type(list1[0])
+b = type(list1[1])
+c = type(list1[2])
+d = type(list1[3])
+print(a, b, c, d)
