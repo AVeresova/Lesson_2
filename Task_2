@@ -1,0 +1,6 @@
+list1 = list(input("Введите элементы списка"))
+a = 0
+for i in range(int(len(list1) / 2)):
+    list1[a], list1[a + 1] = list1[a + 1], list1[a]
+    a += 2
+print(list1)
